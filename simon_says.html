@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Simon Says</title>
+	<link rel="stylesheet" type="text/css" href="../css/simon_says.css">
+</head>
+
+<body>
+	<div id="main">
+		<div id="content">
+			<p id="text" onclick="showCheat()">Click "play" to begin</p>
+			<input type="button" onclick="compSelect()" value="PLAY" id="play"></input>
+			<table id="tb">
+				<tr id="top_row">
+					<td>
+						<div id="blue" class="color"></div>
+					</td>
+					<td>
+						<div id="green" class="color"></div>
+					</td>
+				</tr>
+				<tr id="bottom_row">
+					<td>
+						<div id="red" class="color"></div>
+					</td>
+					<td>
+						<div id="yellow" class="color"></div>
+					</td>
+				</tr>
+			</table>
+			<input id="text_box" type="text" placeholder="enter cheat code">
+		</div>
+	</div>
+	<script src="../scripts/simon_says.js"></script>
+</body>
+</html>
