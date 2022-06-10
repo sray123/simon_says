@@ -9,6 +9,11 @@
 	verticle-align:center;
 }
 
+#content {
+    border: solid 5px #eeeeee;
+    border-radius: 20px;
+}
+
 input {
 	width:100px;
 	height:40px;
